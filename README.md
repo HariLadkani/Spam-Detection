@@ -1,1 +1,28 @@
-Email Spam has become a major problem nowadays, with Rapid growth of internet users, Email spams is also increasing. People are using them for illegal and unethical conducts, phishing and fraud. Sending malicious link through spam emails which can harm our system and can also seek in into your system. Creating a fake profile and email account is much easy for the spammers, they pretend like a genuine person in their spam emails, these spammers target those peoples who are not aware about these frauds. So, it is needed to Identify those spam mails which are fraud, this project will identify those spam by using techniques of machine learning, this project will discuss the machine learning algorithms and apply all these algorithm on our data sets and best algorithm is selected for the email spam detection having best precision and accuracy.
+# Email Spam Detection with Flask and Naive Bayes Classifier
+
+This project aims to detect spam emails using a machine learning model implemented with Python and Flask. The system uses a **Naive Bayes Classifier** trained on a dataset of emails to classify messages as spam or ham (non-spam).
+
+## Introduction
+
+Email spam has become a major problem with the rapid growth of internet users. Spammers send emails for illegal or unethical purposes, such as phishing, fraud, and spreading malicious links. This project applies machine learning techniques to identify and filter spam emails with high accuracy and precision.
+
+---
+
+## Features
+
+- Preprocesses email data to train a **Naive Bayes Classifier**.
+- Allows users to input an email message through a web interface.
+- Predicts whether the email is **spam** or **ham** using the trained model.
+- Provides a simple and intuitive UI built with Flask.
+
+---
+
+## Tech Stack
+
+- **Backend:** Flask (Python)
+- **Frontend:** HTML, CSS (via `render_template`)
+- **Machine Learning:** 
+  - CountVectorizer (feature extraction)
+  - Naive Bayes Classifier (classification)
+  - Pandas, Scikit-learn (data processing and modeling)
+
